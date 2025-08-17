@@ -23,13 +23,11 @@ def verificar_aprovacao(notas: list[float]) -> float:
 
         # Validando as aprovações
         if nota >= 7.0:
-            raise ValueError("Aprovado!")
+            return "APROVADO"
         
-        if nota < 6.9 == 5.0:
-            raise ValueError("Recuperação")
+        if nota < 6.9 and nota > 5.0:
+            return "RECUPERAÇÃO"
         
         if nota < 4.9:
-            raise ValueError("Reprovado!")
+            return "REPROVADO"
 
-    media = sum(notas) /len(notas)
-    return round(media, 1)

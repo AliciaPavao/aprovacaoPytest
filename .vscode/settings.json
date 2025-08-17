@@ -4,4 +4,12 @@
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
+    // "python.testing.pytestEnabled": true,
+    // "python.testing.pytestArgs": [
+    //     "aprovacaoPytest" 
+    // ],
+    // "python.testing.unittestEnabled": false,
+    // "python.testing.cwd": "${workspaceFolder}"
+    
 }
+
