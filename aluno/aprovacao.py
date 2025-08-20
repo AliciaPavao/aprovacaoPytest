@@ -1,3 +1,5 @@
+# pip install pytest-cov
+
 def verificar_aprovacao(notas: list[float]) -> float:
 
     # Validando se há uma lista
